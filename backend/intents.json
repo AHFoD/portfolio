@@ -1,6 +1,5 @@
 {
   "intents": [
-
     {
       "tag": "greeting",
       "patterns": [
@@ -19,9 +18,7 @@
         "Good to see you again",
         "Hi there, how can I help?"
       ],
-      "context": [
-        ""
-      ]
+      "context": [""]
     },
     {
       "tag": "goodbye",
@@ -38,9 +35,7 @@
         "Have a nice day",
         "Bye! Come back again soon."
       ],
-      "context": [
-        ""
-      ]
+      "context": [""]
     },
     {
       "tag": "thanks",
@@ -51,14 +46,8 @@
         "Awesome, thanks",
         "Thanks for helping me"
       ],
-      "responses": [
-        "Happy to help!",
-        "Any time!",
-        "My pleasure"
-      ],
-      "context": [
-        ""
-      ]
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": [""]
     },
     {
       "tag": "noanswer",
@@ -68,19 +57,12 @@
         "Please give me more info",
         "Not sure I understand"
       ],
-      "context": [
-        ""
-      ]
+      "context": [""]
     },
-
 
     {
       "tag": "jokes",
-      "patterns": [
-        "Tell me a joke",
-        "Joke",
-        "Make me laugh"
-      ],
+      "patterns": ["Tell me a joke", "Joke", "Make me laugh"],
       "responses": [
         "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
         "I ate a clock yesterday, it was very time-consuming",
@@ -94,19 +76,12 @@
         "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
         "o what if I don't know what 'Armageddon' means? It's not the end of the world."
       ],
-      "context": [
-        "jokes"
-      ]
+      "context": ["jokes"]
     },
     {
       "tag": "Identity",
-      "patterns": [
-        "Who are you",
-        "what are you"
-      ],
-      "responses": [
-        "I am Chatbot, a Deep-Learning chatbot"
-      ]
+      "patterns": ["Who are you", "what are you"],
+      "responses": ["I am Chatbot, a Deep-Learning chatbot"]
     },
     {
       "tag": "datetime",
@@ -115,52 +90,26 @@
         "what is the date",
         "date",
         "time",
-        "tell me the date","day","what day is is today"
+        "tell me the date",
+        "day",
+        "what day is is today"
       ],
-      "responses": [
-        "Date and Time"
-      ]
+      "responses": ["Date and Time"]
     },
     {
       "tag": "whatsup",
-      "patterns": [
-        "Whats up",
-        "Wazzup",
-        "How are you",
-        "sup","How you doing"
-      ],
-      "responses": [
-        "All good..What about you?"
-      ]
+      "patterns": ["Whats up", "Wazzup", "How are you", "sup", "How you doing"],
+      "responses": ["All good..What about you?"]
     },
     {
       "tag": "haha",
-      "patterns": [
-        "haha",
-        "lol",
-        "rofl",
-        "lmao",
-        "thats funny"
-      ],
-      "responses": [
-        "Glad I could make you laugh !"
-      ]
+      "patterns": ["haha", "lol", "rofl", "lmao", "thats funny"],
+      "responses": ["Glad I could make you laugh !"]
     },
     {
       "tag": "programmer",
-      "patterns": [
-        "Who made you",
-        "who designed you",
-        "who programmed you"
-      ],
-      "responses": [
-        "I was made by Muhammad Fiaz."
-      ]
+      "patterns": ["Who made you", "who designed you", "who programmed you"],
+      "responses": ["I was made by Muhammad Ali Zulfaqar."]
     }
-
-
-
-
-
   ]
 }

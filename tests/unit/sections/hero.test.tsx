@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 [Muhammad Fiaz](https://github.com/muhammad-fiaz/)
+ * Copyright (c) 2023 [Muhammad Ali Zulfaqar](https://github.com/muhammad-fiaz/)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -19,30 +19,28 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import {render, screen} from '@testing-library/react'
-import Hero from '../../../src/components/sections/index/hero'
-import '@testing-library/jest-dom'
+import { render, screen } from "@testing-library/react";
+import Hero from "../../../src/components/sections/index/hero";
+import "@testing-library/jest-dom";
 
-describe('Hero section parts', () => {
+describe("Hero section parts", () => {
+  it("renders main heading", () => {
+    render(<Hero />);
 
-	it('renders main heading', () => {
-		render(<Hero />)
-		
-		const heading = screen.getByRole('heading', {
-			name: /Muhammad Fiaz\./i,
-		})
-		
-		expect(heading).toBeInTheDocument()
-	})
+    const heading = screen.getByRole("heading", {
+      name: /Muhammad Ali Zulfaqar\./i,
+    });
 
-	it('renders sub heading', () => {
-		render(<Hero />)
-		
-		const heading = screen.getByRole('heading', {
-			name: /Passionate Full Stack Developer\./i,
-		})
-		
-		expect(heading).toBeInTheDocument()
-	})
+    expect(heading).toBeInTheDocument();
+  });
 
-})
+  it("renders sub heading", () => {
+    render(<Hero />);
+
+    const heading = screen.getByRole("heading", {
+      name: /Passionate Full Stack Developer\./i,
+    });
+
+    expect(heading).toBeInTheDocument();
+  });
+});

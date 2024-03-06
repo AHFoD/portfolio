@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/muhammad-fiaz/portfolio/assets/75434191/44252d99-9dff-4e5f-9bec-819e3fca7fb3"  alt="Muhammad Fiaz's Portfolio"/>
+  <img src="https://github.com/muhammad-fiaz/portfolio/assets/75434191/44252d99-9dff-4e5f-9bec-819e3fca7fb3"  alt="Muhammad Ali Zulfaqar's Portfolio"/>
 </p>
 <div align="center">
   <h1><a href="https://muhammadfiaz.com/">muhammadfiaz.com</a> | portfolio</h1>
@@ -17,7 +17,6 @@
 [![Latest Release](https://img.shields.io/github/release/muhammad-fiaz/portfolio.svg)](https://github.com/muhammad-fiaz/portfolio/releases/latest)
 [![Current Version](https://img.shields.io/badge/Current%20Version-v1.0.7-blue.svg)](https://github.com/muhammad-fiaz/portfolio/releases/tag/v1.0.7)
 
-
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
@@ -29,7 +28,7 @@
 
 </div>
 
-This project is built with Next.js and React, showcasing [Muhammad Fiaz](https://github.com/muhammad-fiaz/)'s [personal website](https://muhammadfiaz.com/).
+This project is built with Next.js and React, showcasing [Muhammad Ali Zulfaqar](https://github.com/muhammad-fiaz/)'s [personal website](https://muhammadfiaz.com/).
 
 **Feel free to use this project for your own portfolio or as a reference for your projects. If you find it helpful, don't forget to give it a ⭐️ to show your support. [Fork this repo](https://github.com/muhammad-fiaz/portfolio/fork) if you want to contribute✨**
 
@@ -91,8 +90,8 @@ It correctly bundles Next.js and optimizes the build for the best performance.
 
 or
 
-
 ### `npm run build-webpack`
+
 Build the app for production to the `.next` folder using a custom config webpack.\
 This is useful if you want to use [webpack plugins](https://nextjs.org/docs/app/api-reference/next-config-js/webpack) to optimize the build.(**Optional**)
 
@@ -123,14 +122,12 @@ It will generate a sitemap.xml file in the public directory.
 Runs the [Jest](https://jestjs.io/) test runner on your tests.\
 It will show test results in the console.
 
-
-
 ## Icons Information
 
 💖 Icons are from [Font Awesome](https://fontawesome.com/), [Devicon](https://devicon.dev/),
 and also [Google Fonts](https://fonts.google.com/icons).
 
-##  Vector Graphics Animations
+## Vector Graphics Animations
 
 ✨ Vector Graphics Animations are from [LottieFiles](https://lottiefiles.com/).
 
@@ -139,19 +136,16 @@ and also [Google Fonts](https://fonts.google.com/icons).
 Please Read the [Next.js Documentation](https://nextjs.org/docs/getting-started).
 Also, Read the [React.js Documentation](https://reactjs.org/docs/getting-started.html).
 
-
 ## Support Me
 
 <div align="center">
 
 <h5> <strong> 💰 You can help this improve more by offering a little support❤️</strong></h5>
-  
+
 
 [![Sponsor muhammad-fiaz](https://img.shields.io/badge/Sponsor-%231EAEDB.svg?&style=for-the-badge&logo=GitHub-Sponsors&logoColor=white)](https://github.com/sponsors/muhammad-fiaz)
 
 </div>
-
-
 
 ## License
 
@@ -163,8 +157,6 @@ Contributions are welcome!
 
 If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 And make sure to follow the [project guidelines](CODE_OF_CONDUCT.md)
-
-
 
 ## Deploy on Vercel
 
@@ -195,7 +187,6 @@ By following these steps, you'll be sure to stay connected with the latest devel
 If you have any questions or feedback, please don't hesitate to reach out.
 
 Don't forget to Stay tuned for updates and new features!
-
 
   <img   align="right" src="https://github.com/muhammad-fiaz/muhammad-fiaz/assets/75434191/ed52c517-611e-4647-9b35-acd001a287b9" width="20%" />
 
